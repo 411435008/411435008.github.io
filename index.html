@@ -3,45 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>簡約優雅 | 你的名字</title>
+    <title>🎨 [你的名字] | 藝術家作品集</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="card-container">
-        <header class="profile-header">
-            <div class="profile-image"></div>
-            
-            <h1>[你的名字]</h1>
-            <p class="role">品牌設計師 | UI/UX 顧問</p>
-        </header>
 
-        <main class="introduction">
-            <p class="quote">
-                專注於提升使用者體驗，將複雜概念轉化為**優雅而直觀**的設計解決方案。
-            </p>
-            
-            <section class="details">
-                <h2>專注領域</h2>
-                <ul>
-                    <li class="detail-item">視覺識別系統 (VI)</li>
-                    <li class="detail-item">響應式網頁設計</li>
-                    <li class="detail-item">互動原型製作</li>
-                </ul>
-            </section>
-        </main>
+    <nav class="navbar">
+        <div class="logo">[你的名字] Art</div>
+        <ul class="nav-links">
+            <li><a href="#home">首頁</a></li>
+            <li><a href="#gallery">作品集</a></li>
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#contact">聯絡</a></li>
+        </ul>
+    </nav>
 
-        <footer class="contact-footer">
-            <h2>聯絡方式</h2>
-            <nav class="contact-links">
-                <a href="mailto:your.email@example.com" class="contact-link">📧 Email</a>
-                <span class="separator">/</span>
-                <a href="https://your-portfolio.com" target="_blank" class="contact-link">📂 作品集</a>
-                <span class="separator">/</span>
-                <a href="#" class="contact-link">🔗 LinkedIn</a>
-            </nav>
-        </footer>
-    </div>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>捕捉瞬息光影的美學探索</h1>
+            <p class="subtitle">— 畫作作品集 —</p>
+            <a href="#gallery" class="cta-button">瀏覽作品</a>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>精選畫作</h2>
+        <div class="gallery-grid">
+            
+            <div class="artwork-card">
+                <img src="path/to/artwork1.jpg" alt="作品一：城市之光"> 
+                <div class="artwork-info">
+                    <h3>城市之光</h3>
+                    <p class="description">一幅描繪都市夜景的油畫，利用高對比的藍色和黃色調，展現喧囂中的寧靜。探索光與影在現代建築上的交互作用。</p>
+                    <span class="medium-tag">油畫 | 2024</span>
+                </div>
+            </div>
+
+            <div class="artwork-card">
+                <img src="path/to/artwork2.jpg" alt="作品二：山間晨霧"> 
+                <div class="artwork-info">
+                    <h3>山間晨霧</h3>
+                    <p class="description">水彩作品，使用柔和的漸層藍色 (如 #AAC4F5)，捕捉清晨山脈間瀰漫的霧氣，營造空靈靜謐的氛圍。</p>
+                    <span class="medium-tag">水彩 | 2023</span>
+                </div>
+            </div>
+
+            <div class="artwork-card">
+                <img src="path/to/artwork3.jpg" alt="作品三：夢境的魚"> 
+                <div class="artwork-info">
+                    <h3>夢境的魚</h3>
+                    <p class="description">數位繪畫，結合抽象與具象的元素，以夢幻般的色彩 (#8CA9FF) 描繪一條漂浮在太空中的金魚，表達內心的自由與奔放。</p>
+                    <span class="medium-tag">數位繪圖 | 2024</span>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>關於藝術家</h2>
+            <p>我是 [你的名字]，一位專注於 [你的主要媒介，如油畫與水彩] 的藝術家。我的創作靈感源於自然界中的光線變化和情感的細膩流動。我相信藝術是溝通的橋樑，能將不可見的心緒轉化為可見的色彩和線條。</p>
+            <p>作品風格深受印象派和現代主義影響，尤其擅長使用柔和而充滿層次的色彩，希望透過我的畫作，帶領觀者進入一個充滿詩意與冥想的空間。</p>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>&copy; 2024 [你的名字]. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
-
